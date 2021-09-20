@@ -7,11 +7,11 @@
         <div class="card">
             <img class="card-img-top" src="/Images/bet.jpg" alt="Card image cap" height="250">
             <div class="card-body">
-                <h5 class="card-title"><em>Tipo de Pez</em></h5>
-                <small class="text-muted">Descripción.</small>
+                <h5 class="card-title"><em>@title_card</em></h5>
+                <small class="text-muted">@content_card</small>
             </div>
             <footer class="blockquote-footer">
-                <small>Autor 1</small>
+                <small>@author_card</small>
             </footer>
         </div>
 
@@ -19,11 +19,11 @@
         <div class="card ">
             <img class="card-img-top" src="/Images/Beta.webp" alt="Card image cap" height="250">
             <div class="card-body">
-                <h5 class="card-title"><em>Tipo de Pez</em></h5>
-                <small class="text-muted">Descripción.</small>
+                <h5 class="card-title"><em>@title_card</em></h5>
+                <small class="text-muted">@content_card</small>
             </div>
             <footer class="blockquote-footer">
-                <small>Autor 1</small>
+                <small>@author_card</small>
             </footer>
         </div>
 
@@ -31,11 +31,11 @@
         <div class="card ">
             <img class="card-img-top" src="/Images/beta2.jpg" alt="Card image cap" height="250">
             <div class="card-body">
-                <h5 class="card-title"><em>Tipo de Pez</em></h5>
-                <small class="text-muted">Descripción.</small>
+                <h5 class="card-title"><em>@title_card</em></h5>
+                <small class="text-muted">@content_card</small>
             </div>
             <footer class="blockquote-footer">
-                <small>Autor 1</small>
+                <small>@author_card</small>
             </footer>
         </div>
     </div>
@@ -47,11 +47,11 @@
         <div class="card">
             <img class="card-img-top" src="/Images/beta3.jpg" alt="Card image cap" height="250">
             <div class="card-body">
-                <h5 class="card-title"><em>Tipo de Pez</em></h5>
-                <small class="text-muted">Descripción.</small>
+                <h5 class="card-title"><em>@title_card</em></h5>
+                <small class="text-muted">@content_card</small>
             </div>
             <footer class="blockquote-footer">
-                <small>Autor 1</small>
+                <small>@author_card</small>
             </footer>
         </div>
 
@@ -59,11 +59,11 @@
         <div class="card ">
             <img class="card-img-top" src="/Images/beta4.jpeg" alt="Card image cap" height="250">
             <div class="card-body">
-                <h5 class="card-title"><em>Tipo de Pez</em></h5>
-                <small class="text-muted">Descripción.</small>
+                <h5 class="card-title"><em>@title_card</em></h5>
+                <small class="text-muted">@content_card</small>
             </div>
             <footer class="blockquote-footer">
-                <small>Autor 1</small>
+                <small>@author_card</small>
             </footer>
         </div>
 
@@ -71,12 +71,42 @@
         <div class="card ">
             <img class="card-img-top" src="/Images/beta8.jpg" alt="Card image cap" height="250">
             <div class="card-body">
-                <h5 class="card-title"><em>Tipo de Pez</em></h5>
-                <small class="text-muted">Descripción.</small>
+                <h5 class="card-title"><em>@title_card</em></h5>
+                <small class="text-muted">@content_card</small>
             </div>
             <footer class="blockquote-footer">
-                <small>Autor 1</small>
+                <small>@author_card</small>
             </footer>
         </div>
     </div>
 </div>
+
+<div>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                    <span class="sr-only">Previous</span>
+                </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+@code {
+    @* Crear dos variables para el titulo y la descripción del card *@
+    public string title_card = "Nombre pez";
+    public string content_card = "Descripción de la especie";
+    public string author_card = "Yaneth M.";
+}
