@@ -1,0 +1,10 @@
+@page "/"
+@inject IServiceMovie movie
+<MoviesComponent Movies="Movies"></MoviesComponent>
+@code {
+    private List<Movie> Movies;
+    protected override void OnInitialized()
+    {
+        Movies = movie.GetMovies();
+    }
+}
