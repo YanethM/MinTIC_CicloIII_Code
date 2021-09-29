@@ -1,0 +1,40 @@
+@page "/counter"
+<div class="jumbotron">
+     <FishesListComponent/>
+    <img src="@BetaFish1.FishImage" class="img-fluid">
+    <h5 class="text-center">
+        Especie de pez: <small class="text-muted">@BetaFish1.FishSpecie</small>
+    </h5>
+    <blockquote class="blockquote text-center">
+        Descripción:
+        <p class="mp-0">
+            <small class="text-muted">@BetaFish1.FishDescription</small>
+        </p>
+        Tipo de agua en la que habita:
+        <p class="mp-0"><small class="text-muted">@BetaFish1.TypeOfWater</small></p>
+        <footer class="blockquote-footer">
+            <cite>@BetaFish1.PublicationDate.ToString("dd/MM/yyyy")</cite>
+        </footer>
+    </blockquote>
+</div>
+@code {
+    @* Función private que retorna la información del pez mediante una instancia *@
+    private Fish GetFish()
+    {
+        @* Este fragmento de código sólo sirve para crear un único objeto de la clase *@
+        return new Fish()
+        {
+            FishSpecie = "Beta 1",
+            FishDescription = "Descripción del tipo de pez Beta 1",
+            TypeOfWater = "Dulce",
+            FishImage = "/Images/Beta/bet.jpg",
+            PublicationDate = new DateTime(2021, 09, 20)
+        };
+    }
+
+    @* Las propiedades inicializadas en el GetFish se lo asociamos a una instancia *@
+    public Fish BetaFish1
+    {
+        get { return GetFish(); }
+    }
+}

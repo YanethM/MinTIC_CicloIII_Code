@@ -1,0 +1,12 @@
+C:\ProysCicloIII\ProyPeliculas_G34\Shared\bin\Debug\net5.0\ProyPeliculas_G34.Shared.deps.json
+C:\ProysCicloIII\ProyPeliculas_G34\Shared\bin\Debug\net5.0\ProyPeliculas_G34.Shared.dll
+C:\ProysCicloIII\ProyPeliculas_G34\Shared\bin\Debug\net5.0\ref\ProyPeliculas_G34.Shared.dll
+C:\ProysCicloIII\ProyPeliculas_G34\Shared\bin\Debug\net5.0\ProyPeliculas_G34.Shared.pdb
+C:\ProysCicloIII\ProyPeliculas_G34\Shared\obj\Debug\net5.0\ProyPeliculas_G34.Shared.csproj.AssemblyReference.cache
+C:\ProysCicloIII\ProyPeliculas_G34\Shared\obj\Debug\net5.0\ProyPeliculas_G34.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProysCicloIII\ProyPeliculas_G34\Shared\obj\Debug\net5.0\ProyPeliculas_G34.Shared.AssemblyInfoInputs.cache
+C:\ProysCicloIII\ProyPeliculas_G34\Shared\obj\Debug\net5.0\ProyPeliculas_G34.Shared.AssemblyInfo.cs
+C:\ProysCicloIII\ProyPeliculas_G34\Shared\obj\Debug\net5.0\ProyPeliculas_G34.Shared.csproj.CoreCompileInputs.cache
+C:\ProysCicloIII\ProyPeliculas_G34\Shared\obj\Debug\net5.0\ProyPeliculas_G34.Shared.dll
+C:\ProysCicloIII\ProyPeliculas_G34\Shared\obj\Debug\net5.0\ref\ProyPeliculas_G34.Shared.dll
+C:\ProysCicloIII\ProyPeliculas_G34\Shared\obj\Debug\net5.0\ProyPeliculas_G34.Shared.pdb
